@@ -1,0 +1,1 @@
+export { AnimationOnScroll } from "./AnimationOnScroll";
