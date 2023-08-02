@@ -165,19 +165,6 @@ const feedImages = [
   },
 ];
 
-const menuImages = [
-  {
-    _id: "001",
-    urlImg: "/img/promos/promo-1.webp",
-    altImg: "Promoción 1 Tita Cochinita de Barrio Puebla",
-  },
-  {
-    _id: "002",
-    urlImg: "/img/promos/promo-2.webp",
-    altImg: "Promoción 2 Tita Cochinita de Barrio Puebla",
-  },
-];
-
 const promoImages = [
   {
     _id: "001",

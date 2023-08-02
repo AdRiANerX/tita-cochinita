@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/img/ogImages/og-image.png",
+        alt: "Promocional de Tita Cochinita de Barrio",
+        width: 1200,
+        height: 630,
       },
     ],
     locale: "es_MX",
