@@ -47,8 +47,8 @@ export const Grid: FC<Props> = ({
                 alt={img.altImg}
                 src={img.urlImg}
                 className="h-auto w-full rounded-lg"
-                width={200}
-                height={200}
+                width={400}
+                height={400}
               />
             </AnimationOnScroll>
           ))}

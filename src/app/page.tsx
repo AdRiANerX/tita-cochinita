@@ -7,21 +7,130 @@ import { NavBar } from "./UIComponents/NavBar";
 import { SwiperImages } from "./UIComponents/slider/SwiperImages";
 import { Grid, GridSmall } from "./UIComponents/grid";
 
-const images = [
+const feedImages = [
+  {
+    _id: "01",
+    urlImg: "/img/feed/01.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "02",
+    urlImg: "/img/feed/02.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "03",
+    urlImg: "/img/feed/03.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "04",
+    urlImg: "/img/feed/04.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "05",
+    urlImg: "/img/feed/05.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "06",
+    urlImg: "/img/feed/06.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "07",
+    urlImg: "/img/feed/07.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "08",
+    urlImg: "/img/feed/08.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "09",
+    urlImg: "/img/feed/09.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "10",
+    urlImg: "/img/feed/10.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "11",
+    urlImg: "/img/feed/11.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "12",
+    urlImg: "/img/feed/12.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "13",
+    urlImg: "/img/feed/13.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+];
+
+const menuImages = [
   {
     _id: "001",
-    urlImg: "/img/posts/01.png",
-    altImg: "Imagen X",
+    urlImg: "/img/promos/promo-1.webp",
+    altImg: "Promoción 1 Tita Cochinita de Barrio Puebla",
   },
   {
     _id: "002",
-    urlImg: "/img/posts/04.png",
-    altImg: "Imagen X",
+    urlImg: "/img/promos/promo-2.webp",
+    altImg: "Promoción 2 Tita Cochinita de Barrio Puebla",
+  },
+];
+
+const promoImages = [
+  {
+    _id: "001",
+    urlImg: "/img/promos/promo-1.webp",
+    altImg: "Promoción 1 Tita Cochinita de Barrio Puebla",
   },
   {
-    _id: "003",
-    urlImg: "/img/posts/10.png",
-    altImg: "Imagen X",
+    _id: "002",
+    urlImg: "/img/promos/promo-2.webp",
+    altImg: "Promoción 2 Tita Cochinita de Barrio Puebla",
+  },
+];
+
+const slideImages = [
+  {
+    _id: "01",
+    urlImg: "/img/slide/01.webp",
+    altImg: "Tita Cochinita de Barrio - Recuerdos",
+  },
+  {
+    _id: "02",
+    urlImg: "/img/slide/02.webp",
+    altImg: "Tita Cochinita de Barrio - Recuerdos",
+  },
+  {
+    _id: "03",
+    urlImg: "/img/slide/03.webp",
+    altImg: "Tita Cochinita de Barrio - Recuerdos",
+  },
+  {
+    _id: "04",
+    urlImg: "/img/slide/04.webp",
+    altImg: "Tita Cochinita de Barrio - Recuerdos",
+  },
+  {
+    _id: "05",
+    urlImg: "/img/slide/05.webp",
+    altImg: "Tita Cochinita de Barrio - Recuerdos",
+  },
+  {
+    _id: "06",
+    urlImg: "/img/slide/06.webp",
+    altImg: "Tita Cochinita de Barrio - Recuerdos",
   },
 ];
 
@@ -29,22 +138,30 @@ export default function Home() {
   return (
     <div className="container mx-auto">
       <NavBar />
-      <SwiperImages images={images} />
+      <SwiperImages images={slideImages} />
 
       <section id="promos">
-        <Grid images={images} bgColor="bg-tita-dark" title="😎 ¡PROMOS! 👇🏽" />
+        <Grid
+          images={promoImages}
+          bgColor="bg-tita-dark"
+          title="😎 ¡PROMOS! 👇🏽"
+        />
       </section>
 
       <section id="menu">
         <Grid
-          images={images}
+          images={menuImages}
           title="🌮🌯 ¡Menú! 🍜👇🏽"
           colorTitle="text-tita-dark"
         />
       </section>
 
       <section id="feed">
-        <GridSmall bgColor="bg-tita-dark" title="🤳📸 ¡Feed! 👇🏽" />
+        <GridSmall
+          images={feedImages}
+          bgColor="bg-tita-dark"
+          title="🤳📸 ¡Feed! 👇🏽"
+        />
       </section>
 
       <section

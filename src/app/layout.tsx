@@ -15,6 +15,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </head>
       <body className={`${inter.className} bg-tita-yellow`}>{children}</body>
     </html>
   );
