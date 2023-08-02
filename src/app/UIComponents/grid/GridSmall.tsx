@@ -24,7 +24,7 @@ export const GridSmall: FC<Props> = ({
   return (
     <Fragment>
       <div
-        className={`h-24 ${bgColor} flex justify-center items-center mt-4 -mb-0.5`}
+        className={`sticky top-0 z-40 h-24 ${bgColor} flex justify-center items-center mt-4 -mb-0.5 rounded-lg`}
       >
         <h2
           className={` ${colorTitle} font-breeSerif text-3xl animate__animated animate__infinite animate__pulse`}
@@ -33,7 +33,7 @@ export const GridSmall: FC<Props> = ({
         </h2>
       </div>
       <div
-        className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-8 md:px-4 ${bgColor}`}
+        className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-8 md:px-4 ${bgColor} rounded-lg`}
       >
         {images &&
           images.map((img) => (

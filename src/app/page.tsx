@@ -5,7 +5,7 @@ import "animate.css";
 
 import { NavBar } from "./UIComponents/NavBar";
 import { SwiperImages } from "./UIComponents/slider/SwiperImages";
-import { Grid, GridSmall } from "./UIComponents/grid";
+import { Grid, GridMenu, GridSmall } from "./UIComponents/grid";
 
 const feedImages = [
   {
@@ -71,6 +71,96 @@ const feedImages = [
   {
     _id: "13",
     urlImg: "/img/feed/13.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "14",
+    urlImg: "/img/feed/14.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "15",
+    urlImg: "/img/feed/15.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "16",
+    urlImg: "/img/feed/16.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "17",
+    urlImg: "/img/feed/17.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "18",
+    urlImg: "/img/feed/18.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "19",
+    urlImg: "/img/feed/19.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "20",
+    urlImg: "/img/feed/20.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "21",
+    urlImg: "/img/feed/21.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "22",
+    urlImg: "/img/feed/22.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "23",
+    urlImg: "/img/feed/23.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "24",
+    urlImg: "/img/feed/24.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "25",
+    urlImg: "/img/feed/25.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "26",
+    urlImg: "/img/feed/26.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "27",
+    urlImg: "/img/feed/27.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "28",
+    urlImg: "/img/feed/28.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "29",
+    urlImg: "/img/feed/29.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "30",
+    urlImg: "/img/feed/30.png",
+    altImg: "Feed Tita Cochinita de Barrio Puebla",
+  },
+  {
+    _id: "31",
+    urlImg: "/img/feed/31.png",
     altImg: "Feed Tita Cochinita de Barrio Puebla",
   },
 ];
@@ -149,10 +239,10 @@ export default function Home() {
       </section>
 
       <section id="menu">
-        <Grid
-          images={menuImages}
+        <GridMenu
           title="🌮🌯 ¡Menú! 🍜👇🏽"
           colorTitle="text-tita-dark"
+          bgColor="bg-tita-yellow"
         />
       </section>
 
@@ -166,7 +256,7 @@ export default function Home() {
 
       <section
         id="contacto"
-        className="bg-tita-dark flex flex-col justify-center items-center mt-4 pb-8"
+        className="bg-tita-dark flex flex-col justify-center items-center mt-4 pb-8 rounded-lg"
       >
         <div className="h-24 bg-tita-dark flex justify-center items-center mt-4">
           <h2 className=" text-white font-breeSerif text-3xl animate__animated animate__infinite animate__pulse ">
