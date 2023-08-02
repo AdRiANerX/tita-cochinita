@@ -10,6 +10,20 @@ interface Props {
 export const metadata: Metadata = {
   title: "Tita Cochinita de Barrio",
   description: "La mejor cochinita de barrio se llama Tita",
+  robots: "default",
+  openGraph: {
+    type: "website",
+    url: "https://tita-cochinita-de-bario.vercel.app/",
+    title: "🌯Tita Cochinita de Barrio🌮",
+    description: "🌯La mejor cochinita de barrio se llama Tita🌮",
+    siteName: "Tita Cochinita de Barrio",
+    images: [
+      {
+        url: "/img/ogImages/og-image.png",
+      },
+    ],
+    locale: "es_MX",
+  },
 };
 
 export default function RootLayout({ children }: Props) {
