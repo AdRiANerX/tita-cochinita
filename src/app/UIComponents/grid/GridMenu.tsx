@@ -156,13 +156,6 @@ const dataMenu = [
     ],
   },
 ];
-
-interface Images {
-  urlImg: string;
-  altImg: string;
-  _id: string;
-}
-
 interface Props {
   title: string;
   colorTitle?: string;

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "La mejor cochinita de barrio se llama Tita. Cáele a tita y pide la promo que más te acomode.  Te aseguramos que te encantará nuestro sabor. ",
   robots: "index, follow",
+  icons: { icon: "/favicon.png", apple: "/favicon.png" },
   openGraph: {
     type: "website",
     url: "https://tita-cochinita-de-bario.vercel.app",
@@ -35,7 +36,6 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="es">
       <head>
-        <link rel="icon" type="image/png" href="/favicon.png" />
         <link
           rel="canonical"
           href="https://tita-cochinita-de-bario.vercel.app"

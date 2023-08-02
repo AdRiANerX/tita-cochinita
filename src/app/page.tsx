@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import "animate.css";
 
-import { NavBar } from "./UIComponents/NavBar";
+import { NavBar } from "./UIComponents";
 import { SwiperImages } from "./UIComponents/slider/SwiperImages";
 import { Grid, GridMenu, GridSmall } from "./UIComponents/grid";
 

@@ -15,7 +15,7 @@ const links = [
   },
   {
     href: "#contacto",
-    name: "Contácatanos",
+    name: "Contáctanos",
   },
 ];
 export const MenuItems = () => {
